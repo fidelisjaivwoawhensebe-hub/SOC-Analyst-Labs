@@ -31,3 +31,28 @@ Multiple failed login attempts were detected from a single IP address within a s
 ---
 
 More labs will be added as I continue building real-world cybersecurity skills.
+---
+
+## 🧪 Lab 2: Phishing Email Analysis
+
+### 🎯 Objective
+Analyze suspicious email indicators to determine phishing attempt.
+
+### 🛠 Tools Used
+- Email header analysis
+- VirusTotal (for link checking)
+- Basic OSINT techniques
+
+### 🔎 Investigation Steps
+1. Examined sender email address.
+2. Analyzed email headers for spoofing.
+3. Checked embedded links using reputation tools.
+4. Reviewed language and urgency indicators.
+
+### 🚨 Findings
+Email contained spoofed domain and malicious link designed to capture user credentials.
+
+### 🛡 Response Recommendation
+- Block sender domain
+- Report to security team
+- Educate users on phishing awareness
